@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_background"
+    tools:context="com.aresteam.hcmus.english4kids.ModeChooserActivity">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/btn_mode1"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:src="@drawable/btn_mode1" />
+        <ImageButton
+            android:id="@+id/btn_mode2"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:src="@drawable/btn_mode2" />
+        <ImageButton
+            android:id="@+id/btn_mode3"
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:src="@drawable/btn_mode3" />
+    </LinearLayout>
+
+    <!--<HorizontalScrollView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_mode1"
+                    android:adjustViewBounds="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    />
+                <ImageButton
+                    android:id="@+id/btn_mode1"
+                    android:layout_height="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:src="@drawable/btn_mode1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_mode2"
+                    android:adjustViewBounds="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    />
+                <ImageButton
+                    android:id="@+id/btn_mode2"
+                    android:layout_height="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:src="@drawable/btn_mode2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_mode3"
+                    android:adjustViewBounds="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/btn_mode3"
+                    android:layout_height="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:background="@null"
+                    android:src="@drawable/btn_mode2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>-->
+
+
+
+
+
+
+
+</RelativeLayout>

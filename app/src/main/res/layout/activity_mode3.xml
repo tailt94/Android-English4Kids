@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/activityMode3"
+    >
+
+    <TableLayout
+        android:id="@+id/tableLayoutHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0, 1, 2">
+        <TableRow>
+            <TextView
+                android:id="@+id/textViewLevel"
+                android:background="#ffffff"
+                android:padding="5dp"
+                android:text="LEVEL: 0"/>
+            <Button
+                android:id="@+id/buttonHelp"
+                android:text="HELP"/>
+            <TextView
+                android:id="@+id/textViewScore"
+                android:background="#ffffff"
+                android:padding="5dp"
+                android:text="SCORE: 0"/>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tableLayoutHelp"
+        android:background="#ffffff">
+        <ImageView
+            android:id="@+id/imageViewOpenAll"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/open_all"/>
+        <TextView
+            android:id="@+id/textViewOpenAll"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="0"/>
+        <ImageView
+            android:id="@+id/imageViewOpenOne"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/open_one"/>
+        <TextView
+            android:id="@+id/textViewOpenOne"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="0"/>
+    </LinearLayout>
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    -->
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+
+        />
+
+
+
+    <TableLayout
+        android:id="@+id/tableEmptyBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" >
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableAlphabet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+    </TableLayout>
+
+</RelativeLayout>

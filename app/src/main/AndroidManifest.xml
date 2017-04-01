@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aresteam.hcmus.english4kids">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeScreenActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ModeChooserActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Mode1Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Mode2Activity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".InfoActivity"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".Mode3Activity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SettingActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

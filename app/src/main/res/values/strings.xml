@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">English4Kids</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="defType">drawable</string>
+    <string name="defPackage">com.aresteam.hcmus.english4kids</string>
+    <string name="empty">empty</string>
+
+    <string-array name="imgNameArray">
+
+        <item>cow</item>
+        <item>crab</item>
+        <item>crocodile</item>
+        <item>duck</item>
+        <item>elephant</item>
+        <item>goat</item>
+        <item>owl</item>
+        <item>penguin</item>
+        <item>tiger</item>
+        <item>zebra</item>
+
+    </string-array>
+
+    <string-array name="alphabetArray">
+
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+
+    </string-array>
+
+</resources>

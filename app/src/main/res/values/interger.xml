@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="NUMBER_LETTER_OF_ROW" >8</integer>
+    <integer name="MIN_RANGE_RANDOM_CHAR" >97</integer>
+    <integer name="MAX_RANGE_RANDOM_CHAR" >122</integer>
+    <integer name="MARGIN_RIGHT_OF_LETTER" >20</integer>
+    <integer name="WIN_SCORE" >30</integer>
+    <integer name="HELP_SCORE" >20</integer>
+
+</resources>
